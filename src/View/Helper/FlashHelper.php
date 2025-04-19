@@ -15,13 +15,13 @@ class FlashHelper extends Helper
 	/**
 	 * @var array
 	 */
-	public $helpers = [];
+	public array $helpers = [];
 	/**
 	 * Default configuration.
 	 *
 	 * @var array
 	 */
-	protected $_defaultConfig = [];
+	protected array $_defaultConfig = [];
 
 	/**
 	 * @return string
