@@ -33,7 +33,7 @@ class FlashComponent extends Component
 	 *
 	 * @var array
 	 */
-	protected $_defaultConfig = [
+	protected array $_defaultConfig = [
 		'header'       => 'X-Flash',
 		'renderHeader' => [
 			'ajax' => true,
